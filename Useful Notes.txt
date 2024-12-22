@@ -1,0 +1,36 @@
+ 
+ // useful dev for setting the correct port to use in dev script.
+
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --watch-preserve-output --env-file=.env server.js"
+  },
+
+
+  NOTE: 
+
+  node --watch --watch-preserve-output
+
+  node --watch --watch-preserve-output --env-file=.env server.js
+
+  or with NODEMON Install NPM
+
+   "dev": "nodemon --env-file=.env server.js"
+
+
+   npm uninstall nodemon --save-dev
+
+Globally
+    npm uninstall -g nodemon
+
+
+// // Setup of Middleware for express static to create default path to public folder
+// app.use(express.static(path.join(__dirname, "public")));
+
+// // app.get("/", (req, res) => {
+// //   res.sendFile(path.join(__dirname, "public", "index.html"));
+// // });
+
+// // app.get("/about", (req, res) => {
+// //   res.sendFile(path.join(__dirname, "public", "about.html"));
+// // });

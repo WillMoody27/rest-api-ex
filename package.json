@@ -1,0 +1,17 @@
+{
+  "name": "rest-api-ex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch --watch-preserve-output --env-file=.env server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "init": "^0.1.2"
+  }
+}
